@@ -1,0 +1,70 @@
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 10px 10px #ccc;
+    margin-bottom: 9px;
+    max-width: 85%;
+}
+
+.table td, .table th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table tr:hover{
+    background-color: #ddd;
+}
+
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf4ffd;
+    color: white;
+}
+
+.table td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+.trash{
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    padding: 4px;
+    border: none;
+    margin-right: 9px;
+}
+
+.trash:hover{
+    color: white;
+    background-color: red;
+}
+
+.editbtn{
+    color: green;
+    cursor: pointer;
+    background-color: white;
+    padding: 2px;
+    border: none;
+}
+
+.editbtn:hover{
+    color: white;
+    background-color: green;
+}
+
+.span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
